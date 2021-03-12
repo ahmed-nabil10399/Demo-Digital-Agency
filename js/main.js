@@ -61,18 +61,20 @@ $(document).ready(function () {
   // ******************************************
 
   // wow js
-  $(".wow").each(function() {
-    if ($(window).width() > 767) {
-      var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: false,
-        live: true
-      });
-      new WOW().init();
-    }
-  });
+//   $(".wow").each(function() {
+//     if ($(window).width() > 767) {
+//       var wow = new WOW({
+//         boxClass: 'wow',
+//         animateClass: 'animated',
+//         offset: 0,
+//         mobile: false,
+//         live: true
+//       });
+//       new WOW().init();
+//     }
+//   });
+  
+  new WOW().init();
 
 
 });
